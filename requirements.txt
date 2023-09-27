@@ -6,7 +6,7 @@ keras==2.8.0
 Keras-Preprocessing==1.1.2
 numpy==1.20.3
 oauthlib==3.2.0
-opencv-python==4.5.5.64
+opencv-python-headless
 openpyxl==3.0.7
 opt-einsum==3.3.0
 optuna==3.1.1
