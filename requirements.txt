@@ -21,5 +21,4 @@ prompt-toolkit==3.0.24
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorflow==2.8.0
-tensorflow-addons==0.17.1
 tensorflow-io-gcs-filesystem==0.24.0
