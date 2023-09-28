@@ -16,7 +16,7 @@ class preprocess:
     def __zoom_face(self,image):
         a = cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
         face = self.detector.detectMultiScale(a,scaleFactor=1.1,minNeighbors=10)
-        if face != ():
+        if face is not ():
             x,y,w,h=face[0]
             padding = 120
             x = max(x - padding, 0)
