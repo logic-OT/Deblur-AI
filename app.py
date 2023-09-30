@@ -4,6 +4,9 @@ from deblur import sharpen,motion_blur_fix
 
 st.title('Welcome to Deblur AI')
 
+lead = Image.open('media/delur head.png')
+st.image(lead,width=300)
+
 st.write('**Deblur AI** allows you to fix blurriness and sharpen images of faces. It works by using UNet Architecture to handle motion blurred and low quality images.')
 st.write('This version currently outputs only **Black and white** results!')
 st.header('Lets Go!')
